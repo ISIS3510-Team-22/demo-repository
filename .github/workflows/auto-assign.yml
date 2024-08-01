@@ -17,3 +17,4 @@ jobs:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           assignees: leo283
           numOfAssignee: 1
+          reviewers: afonsecag
