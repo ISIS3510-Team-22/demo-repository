@@ -11,9 +11,8 @@ jobs:
       issues: write
       pull-requests: write
     steps:
-    - name: 'Auto-assign issue'
-      uses: pozil/auto-assign-issue@v1
+                  
+    - name: Auto Author Assign
+      uses: toshimaru/auto-author-assign@v2.1.1
       with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          assignees: leo283, Carlos-301
-          numOfAssignee: 1
