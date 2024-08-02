@@ -17,3 +17,4 @@ jobs:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           assignees: leo283, Carlos-301
           numOfAssignee: 1
+          reviewers: Carlos-301
