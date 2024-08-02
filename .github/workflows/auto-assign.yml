@@ -15,9 +15,3 @@ jobs:
       uses: toshimaru/auto-author-assign@v2.1.1
       with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-
-    - name: Auto asign reviewers
-      uses: pozil/auto-assign-issue@v1
-      with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          reviewers: ISIS3510-TEAM-XX/android
