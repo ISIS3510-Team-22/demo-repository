@@ -15,6 +15,5 @@ jobs:
       uses: pozil/auto-assign-issue@v1
       with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          assignees: leo283
+          assignees: leo283, Carlos-301
           numOfAssignee: 1
-          reviewers: afonsecag
