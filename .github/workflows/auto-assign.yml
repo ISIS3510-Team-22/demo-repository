@@ -10,11 +10,8 @@ jobs:
     permissions:
       issues: write
       pull-requests: write
-    steps:
-    - name: 'Auto-assign issue'
-      uses: pozil/auto-assign-issue@v1
+    steps:   
+    - name: Auto Author Assign
+      uses: toshimaru/auto-author-assign@v2.1.1
       with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          assignees: leo283
-          numOfAssignee: 1
-          reviewers: afonsecag
